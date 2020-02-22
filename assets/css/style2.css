@@ -8,32 +8,12 @@ body {
 
 /* Header */
 header {
-	position: relative;
-	display: flex;
-}
-
-div .col-sm-4 {
-	right: 0px;
-	padding-left: 50px;
-}
-
-h1 {
-	left: 0px;
-	position: absolute;
-	padding-left: 16px;
+	position: sticky;
 }
 
 nav {
-	right: 0px;
-	position: absolute;
-	margin-right: 0px;
-	padding-right: 0px;
-	width: 120%;
-}
-
-div #navbarMenu {
-	padding-left: 30px;
-	background-color: red;
+	margin-right: 40px;
+	width: 100%;
 }
 
 a {
@@ -81,19 +61,24 @@ i {
 /* Media Queries */
 
 @media only screen and (max-width: 380px) {
+	html,
+	body {
+		width: 100%;
+	}
+
 	nav {
-		display: none;
-		background-color: blue;
+		margin-right: 0px;
+		width: 100%;
 	}
 }
 
 @media only screen and (max-width: 1030px) {
-	div .col-sm-4 {
-		right: 0px;
-		padding-left: 0px;
+	.col-sm-12 {
+		padding: 0;
 	}
 
 	nav {
-		width: 110%;
+		width: 90%;
+		padding: 0;
 	}
 }
