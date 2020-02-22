@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+body {
+	background-color: #f4f4f4;
+}
+
+.container-fluid {
+	height: 100%;
+	width: 100%;
+	margin: 0px 0px;
+}
+
+header,
+footer {
+	background-color: #ef853b;
+	padding: 20px;
+	width: 100%;
+	height: 20%;
+}
+
+header,
+a,
+h1,
+p {
+	color: #393e46;
+}
+
+header {
+	display: flex;
+	font-family: 'Oswald', sans-serif;
+	padding: 20px;
+	align-items: center;
+	border-bottom: 5px solid #393e46;
+}
+
+main {
+	height: 80%;
+	width: 100%;
+	padding: auto;
+	justify-content: center;
+}
+
+.container {
+	/* background-color: #ffffff; */
+	height: 80%;
+	margin: 20px 0px 20px 150px;
+	/* padding: 20px; */
+	justify-content: center;
+}
+
+footer {
+	border-top: 5px solid #393e46;
+}
+
+#bioCard {
+	margin: 15px auto;
+	box-shadow: 1px 1px 15px #a4a7aa;
+}
+
+.container #portfolio {
+	width: 800px;
+	height: 300px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 15px #a4a7aa;
+	background-color: #ffffff;
+}
+
+header h1 {
+	display: flex;
+	font-size: 5vw;
+	width: auto;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	width: auto;
+}
+
+.nav_links,
+li {
+	display: flex;
+	width: auto;
+	margin: auto;
+	padding: 0px 10px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+	/* padding: 8px; */
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.8vw;
+	text-decoration: none;
+	color: #393e46;
+}
+
+#form_container {
+	background-color: #ffffff;
+	height: 90%;
+}
+
+main h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 32px;
+	padding: 10px 0 25px 0;
+	color: #484e58;
+	border-bottom: 2px solid #aeb1b6;
+}
+
+main form {
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+	background-color: #ffffff;
+}
+
+main input,
+main textarea {
+	width: 100%;
+	margin: 10px 0;
+	padding: 5px;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	/* color: #393e46; */
+}
+
+button {
+	background-color: #ef853b;
+	margin-bottom: 10px;
+	padding: 10px 50px;
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+	color: #393e46;
+}
+
+p {
+	font-size: 20px;
+	line-height: 1.6;
+	font-family: 'Lato', sans-serif;
+}
+
+h5 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 32px;
+	color: #545963;
+	padding: 0 0 25px 0;
+	border-bottom: 2px solid #aeb1b6;
+}
+
+.navbar-toggler {
+	width: 50%;
+	right: 5px;
+}

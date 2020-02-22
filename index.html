@@ -3,35 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Alejandro Fuste</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css?family=Lato|Oswald:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+
+    <!-- Header -->
+
     <header> 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-8">
-                    <h1>Alejandro Fuste</h1>
-                </div>
-
-                <div class="col-sm-4">
-                    <nav class="navbar navbar-expand-md justify-content-end navbar-light bg-#ef853b" id="navbar">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-expand-md  navbar-light" id="navbar">
+                        <a class="navbar-brand" href="#">Navbar</a>
                         <button class="navbar-toggler border-0" data-toggle="collapse" data-target="#navbarMenu">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarMenu">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                <a class="nav-link active" href="index.html">About</a>
+                                    <a class="nav-link active" href="#home">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                                    <a class="nav-link active" href="#about"><i class="fas fa-user"></i>About</a>
                                 </li>
                                 <li class="nav-item">
-                                <a class="nav-link active" href="contact.html">Contact</a>
+                                    <a class="nav-link active" href="#portfolio"><i class="fas fa-th"></i>Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#contact"><i class="fas fa-envelope"></i>Contact</a>
                                 </li>
                             </ul>
                         </div> 
@@ -40,41 +45,82 @@
             </div>
         </div>        
     </header>
-    
-    <main>
-        <div class="container"> 
-            <div class="row">
-                <div class="card mb-3" style="max-width: 900px;" id="bioCard">
-                    <div class="row no-gutters">
-                        <div class="col-md-4">
-                            <img src="assets/images/randomProfilePic.jpg" class="card-img-fluid"" alt="Profile Picture" height="465px" width="300px">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">About Me</h5>
-                                <p class="card-text">Hi, my name is Alejandro Fuste! This is my first portfolio website. 
-                                    <br>
-                                    <br>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta itaque ullam totam reprehenderit a at. Sequi accusamus corporis nesciunt culpa maxime, pariatur quis. Libero tempore doloremque, quo molestias asperiores quia!</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
 
-    <footer> 
-        <div class="container-fluid">
-            <div class="row"> 
-                <div class="col-sm-12"></div>
+
+    <!-- Parallax Content -->
+
+    <div class="parallax1" id="home">
+        <div class="heading">Logo</div>
+    </div>
+        <!-- About Me -->
+    <section>
+        <h2 id="about">About Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error qui ex incidunt dolores eos velit sint quae sed doloribus, dicta nostrum tempore repudiandae deserunt laboriosam aperiam odio sunt. Numquam, veniam?</p>
+    </section>
+
+    <div class="parallax2">
+        <div class="heading-sm">Portfolio</div>
+    </div>
+
+        <!-- Portfolio Content -->
+
+    <section>
+        <h2 id="portfolio">Portfolio</h2>
+        <div>Add Portfolio Content Here</div>
+        <picture>
+            <img src="#" alt="picture">
+            <img src="#" alt="picture">
+            <img src="#" alt="picture">
+            <img src="#" alt="picture">
+            <img src="#" alt="picture">
+            <img src="#" alt="picture">
+        </picture>
+    </section>
+
+    <div class="parallax3">Contact</div>
+
+        <!-- Contact Content -->
+    <section>
+        <h2 id="contact">Add Contact Content Here</h2>
+        <form action="#">
+
+            
+            <input type="text" name="Name" placeholder="Name">
+            
+            <input type="email" name="email" placeholder="Email"><br>
+            <br>
+            <textarea name="message" id="message" placeholder="Message" cols="50" rows="1"></textarea><br>
+            <button type="button">Submit</button>
+
+        </form>
+        
+    </section>
+
+    <div class="parallax4"></div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <a href="#"><i class="fas fa-arrow-up"></i>To the top</a>
+
+        <div>Put Social Media Icons Here</div>
+
     </footer>
 
+   
+
     
+
+
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
