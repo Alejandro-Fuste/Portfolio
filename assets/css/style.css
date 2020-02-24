@@ -58,6 +58,55 @@ i {
 	background-attachment: fixed;
 }
 
+section {
+	padding: 30px 50px;
+}
+
+h2 {
+	text-align: center;
+}
+
+/* About Me Section */
+
+p img {
+	float: left;
+	padding-right: 20px;
+}
+
+/* Portfolio */
+
+/* Contact */
+
+#contact div {
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 0px;
+}
+
+#contact div form {
+	display: block;
+}
+
+input {
+	border-radius: 3px;
+}
+
+textarea {
+	border-radius: 3px;
+	border-color: rgb(194, 192, 192);
+	padding: 5px;
+}
+
+/* Footer */
+
+footer {
+	min-height: 30vh;
+}
+
+footer div {
+	text-align: center;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 380px) {
