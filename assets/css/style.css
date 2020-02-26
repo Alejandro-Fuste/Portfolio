@@ -13,11 +13,11 @@ p {
 
 /* Header */
 header {
-	position: sticky;
+	/* position: sticky;
+	top: 0px; */
 }
 
 nav {
-	/* margin-right: 40px; */
 	width: 100%;
 }
 
@@ -71,6 +71,7 @@ section {
 h2 {
 	text-align: center;
 	font-family: 'Ubuntu', 'Open Sans';
+	margin-bottom: 30px;
 }
 
 /* About Me Section */
@@ -81,6 +82,15 @@ p img {
 }
 
 /* Portfolio */
+
+#scrollTarget {
+	overflow: scroll;
+	margin-bottom: 25px;
+}
+
+div a .btn btn-primary {
+	background-color: rgb(24, 23, 23);
+}
 
 /* Contact */
 
@@ -106,7 +116,7 @@ textarea {
 
 form button {
 	width: 150px;
-	background-color: black;
+	background-color: rgb(24, 23, 23);
 	color: white;
 	font-size: 20px;
 }
