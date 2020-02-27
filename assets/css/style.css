@@ -12,7 +12,7 @@ p {
 	letter-spacing: 1.5px;
 }
 
-/* Header */
+/* ================ Header ================== */
 header {
 	/* position: sticky;
 	top: 0px; */
@@ -31,7 +31,7 @@ i {
 	padding-right: 3px;
 }
 
-/* Parallax Content */
+/* ================ Parallax Content ================ */
 
 .parallax1 {
 	background-image: url('../images/pic1.jpg');
@@ -50,7 +50,7 @@ i {
 
 .parallax4 {
 	background-image: url('../images/19922.jpg');
-	min-height: 100%;
+	min-height: 80%;
 }
 
 .parallax1,
@@ -75,7 +75,7 @@ h2 {
 	margin-bottom: 30px;
 }
 
-/* About Me Section */
+/* ================ About Me Section ================ */
 
 p img {
 	float: left;
@@ -90,6 +90,7 @@ col-sm-3 {
 
 #scrollTarget {
 	overflow: scroll;
+	/* width: auto; */
 	margin-bottom: 25px;
 }
 
@@ -97,15 +98,13 @@ div a .btn btn-primary {
 	background-color: rgb(24, 23, 23);
 }
 
-/* Contact */
+/* ======================= Contact ==================== */
 
-#contact div {
-	display: flex;
-	justify-content: space-around;
-	margin: 20px 0px;
+#cityDiv {
+	padding: 0 auto;
 }
 
-#contact div form {
+#infoDiv {
 	display: block;
 }
 
@@ -133,7 +132,7 @@ form button {
 	padding: 5px;
 }
 
-/* Footer */
+/* ===================== Footer ===================== */
 
 footer {
 	min-height: 30vh;
@@ -143,7 +142,7 @@ footer div {
 	text-align: center;
 }
 
-/* Media Queries */
+/* ===================== Media Queries ===================  */
 
 @media only screen and (max-device-width: 1030px) {
 	html,
