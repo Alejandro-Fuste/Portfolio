@@ -83,6 +83,10 @@ p img {
 
 /* Portfolio */
 
+col-sm-3 {
+	margin-right: 15px;
+}
+
 #scrollTarget {
 	overflow: scroll;
 	margin-bottom: 25px;
@@ -140,25 +144,16 @@ footer div {
 
 /* Media Queries */
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-device-width: 1030px) {
 	html,
 	body {
-		width: 100%;
+		width: auto;
 	}
 
-	nav {
-		margin-right: 0px;
-		width: 100%;
-	}
-}
-
-@media only screen and (max-width: 1030px) {
-	.col-sm-12 {
-		padding: 0;
-	}
-
-	nav {
-		width: 90%;
-		padding: 0;
+	.parallax1,
+	.parallax2,
+	.parallax3,
+	.parallax4 {
+		background-attachment: scroll;
 	}
 }
